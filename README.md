@@ -21,4 +21,23 @@ pnpm run test
 ```
 
 ### Estructura del Proyecto
-vue-image-grid/ ├── public/ │ └── favicon.ico # Icono de la aplicación │ └── index.html # Archivo HTML principal ├── src/ │ ├── assets/ # Recursos estáticos como imágenes y estilos │ ├── components/ # Componentes Vue.js reutilizables │ │ └── ImageGrid.vue # Componente principal para la cuadrícula de imágenes │ ├── App.vue # Componente raíz de la aplicación │ ├── main.js # Punto de entrada de la aplicación │ ├── setupTests.js # Configuración global para pruebas │ └── styles/ # Archivos de estilo global ├── tests/ │ └── components/ # Pruebas específicas para los componentes │ └── ImageGrid.test.js # Pruebas para el componente ImageGrid ├── .gitignore # Archivos y carpetas que Git debe ignorar ├── package.json # Gestión de dependencias y scripts del proyecto ├── vite.config.js # Configuración de Vite └── README.md #
+
+├───public/
+│   ├───favicon.ico
+│   └───index.html
+├───src/
+│   ├───assets/
+│   ├───components/
+│   │   ├───ImageGrid.test.js
+│   │   └───ImageGrid.vue
+│   ├───App.vue
+│   ├───main.js
+│   └───setupTests.js
+├───.npmrc
+├───babel.config.js
+├───jsconfig.json
+├───package.json
+├───pnpm-lock.yaml
+├───README.md
+├───vite.config.mjs
+└───vue.config.js

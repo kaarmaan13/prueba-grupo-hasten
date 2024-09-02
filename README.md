@@ -22,6 +22,7 @@ pnpm run test
 
 ### Estructura del Proyecto
 
+```
 ├───public/
 │   ├───favicon.ico
 │   └───index.html
@@ -41,3 +42,4 @@ pnpm run test
 ├───README.md
 ├───vite.config.mjs
 └───vue.config.js
+```

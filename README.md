@@ -23,7 +23,7 @@ pnpm run test
 ### Estructura del Proyecto
 
 ```
-├───public/
+┌───public/
 │   ├───favicon.ico
 │   └───index.html
 ├───src/
